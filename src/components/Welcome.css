@@ -65,3 +65,31 @@
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+
+.kickstart-mobile:hover,
+.kickstart:hover {
+    background-color: #7a4d7e; /* Darker shade on hover */
+}
+
+.policy-container {
+    display: flex; /* Use flexbox for the checkbox and label */
+    align-items: center; /* Center items vertically */
+    margin-top: 15px; /* Space above the policy container */
+}
+
+.policy-container input {
+    margin-right: 10px; /* Space between checkbox and label */
+}
+
+.policy-container label {
+    cursor: pointer;
+    color: #522546;
+    text-decoration: none;
+}
+
+/* Adjust warning message styling */
+.policy-container p {
+    color: red; /* Warning message color */
+    margin-top: 5px; /* Space above the warning */
+}
