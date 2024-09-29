@@ -39,7 +39,7 @@ export default function Start() {
                 });
 
                 let names = response.data['name'].split(' ');
-                let name = names[0].toLowerCase();
+                let name = names[0].toLowerCase(); 
                 
                 
                 // If the name is empty or null, it's a wrong name, so add to ignored
