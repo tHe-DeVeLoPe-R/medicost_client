@@ -65,3 +65,29 @@
     outline: none;
     box-shadow: 0 0 8px rgba(82, 37, 70, 0.2);
 }
+
+.medicines-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.medicines-table th, .medicines-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.medicines-table th {
+    background-color: #522546;
+    color: white;
+    font-weight: bold;
+}
+
+.medicines-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.medicines-table tr:last-child td {
+    font-weight: bold;
+}
