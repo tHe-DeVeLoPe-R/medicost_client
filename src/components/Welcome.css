@@ -85,7 +85,7 @@
 .policy-container label {
     cursor: pointer;
     color: #522546;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* Adjust warning message styling */

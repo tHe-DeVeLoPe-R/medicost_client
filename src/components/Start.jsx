@@ -126,9 +126,10 @@ export default function Start() {
                     ))
                 }
                 <br /> <br />
-                <button onClick={handleAdd} className='add-mobile'> Add </button> <br /><br />
-                <button onClick={() => navigate('/', { replace: true })} className='back-mobile'> Back </button> <br /> <br />
-                {!requestStatus ? <button onClick={() => makeApiCall(fields)} className='submit-mobile'> Submit request </button> : <p>Processing for {currentMedicine}</p>}
+                {!requestStatus ? <button onClick={() => makeApiCall(fields)} className='submit-mobile'> Submit request </button> : <p>Processing for {currentMedicine}</p>} <br />
+                <button onClick={handleAdd} className='add-mobile'> Add </button> <br />
+                <button onClick={() => navigate('/', { replace: true })} className='back-mobile'> Back </button>
+               
 
                 {/* Display ignored medicines */}
                 {ignored.length > 0 && (
@@ -136,7 +137,7 @@ export default function Start() {
                         <h3>Ignored Medicines</h3>
                         <ul>
                             {ignored.map((med, idx) => (
-                                <li key={idx}>{med}</li>
+                                <li key={idx}>{med} &nbsp; <a onClick={()=>{navigate('/ignored')}} style={{'color':'#522546'}} >Why ignored?</a></li>
                             ))}
                         </ul>
                     </div>

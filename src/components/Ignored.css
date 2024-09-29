@@ -1,0 +1,27 @@
+.ignored-message {
+    max-width: 80%; /* Limits the width of the message box */
+    margin: 50px auto; /* Centers the box on the page */
+    padding: 20px; /* Adds space inside the box */
+    background-color: white; /* Light background for contrast */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.ignored-message h2 {
+    color: #d9534f; /* Highlight the title with a red tone */
+    font-size: 24px; /* Size of the title */
+    margin-bottom: 15px; /* Spacing below the heading */
+    text-align: center; /* Center the heading */
+}
+
+.ignored-message p {
+    color: #555; /* Darker grey for readability */
+    font-size: 16px; /* Comfortable font size */
+    line-height: 1.6; /* Better line spacing for readability */
+    text-align: justify; /* Justified text for a clean layout */
+}
+
+.ignored-message p br {
+    margin-bottom: 15px; /* Adds some space after line breaks */
+}
